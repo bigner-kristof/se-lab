@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // Generator used to simulate random failure rate
   private Random generator = new Random();
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
